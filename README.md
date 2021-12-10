@@ -70,9 +70,9 @@ const int number=10;
 >}
 
 **Uses of & key word:**
-1.	(address) operator produce a pointer to its operand.
+*	(address) operator produce a pointer to its operand.
 >EX:  Ptr=&number;
-2. a reference declarator in addition to being the address operator
+* a reference declarator in addition to being the address operator
 >Ex:
 > 
  >int result;
@@ -81,9 +81,9 @@ const int number=10;
  >
 >void function(int*& ptr); // ptr is a reference to a pointer
 
-3. with overloaded functions only in an initialization or assignment where the left side uniquely determines which version of the overloaded function is used.
+* with overloaded functions only in an initialization or assignment where the left side uniquely determines which version of the overloaded function is used.
 
-4. Used with bitwise AND
+* Used with bitwise AND
 >EX:
 >
 >int main (){
@@ -97,7 +97,7 @@ const int number=10;
 >cout<<”result= ”<<result<<endl;
 > 
 >}
-5. Used with logical AND
+* Used with logical AND
 > EX:
 > 
 >int main (){
