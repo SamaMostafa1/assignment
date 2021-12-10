@@ -1,7 +1,7 @@
 # assignment
 **Uses of Const keyword:**
 
-*Used with Constant Variables
+* Used with Constant Variables
 >Ex:
 const int number=10;
 >
