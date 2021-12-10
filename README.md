@@ -1,30 +1,30 @@
 # assignment
 **Uses of Const keyword:**
 
-1.Used with Constant Variables
+*Used with Constant Variables
 >Ex:
 const int number=10;
 >
 >(The value of integer number=10 can’t be changed)
 
-2. Used with pointer variable point to a constant value.
+* Used with pointer variable point to a constant value.
 >Ex:
 >const int * ptr=&result;
        result=20;
 > 
 >(Result value can’t change)
 
-3. Used with constant pointer variable point to a value
+* Used with constant pointer variable point to a value
     >int *const ptr=&result;
     >
    > (Pointer (ptr) is constant can’t be changed).
 
 
-4. Used with constant pointer pointing to a constant variable
+* Used with constant pointer pointing to a constant variable
 >Const int *const ptr=&result;
 (Result value and pointer (ptr) both are constant can’t be changed)
 
-5. Used with const-function Declaration
+* Used with const-function Declaration
 >const void pop () {
  //code of the function
   }
@@ -36,7 +36,7 @@ const int number=10;
  >}
 >
 
-6.  Used with const member function of the class.
+* Used with const member function of the class.
 >class LinkedList {
 >int y;
 > 
@@ -50,9 +50,9 @@ const int number=10;
 >}
 }
 
-7.  const return type
+*  const return type
 
-8. Const function parameters.
+* Const function parameters.
 >void print (const int y) {
 > 
 >cout<<y<<endl;
